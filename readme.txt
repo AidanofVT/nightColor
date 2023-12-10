@@ -7,3 +7,5 @@ One neat feature I *did* include was to change icon sets along with colors, beca
 2. `sudo systemctl --user daemon-reload`
 3. `sudo systemctl --user start nightColor.timer`
 4. `sudo systemctl --user enable nightColor.timer`
+
+Whenever you alter nightColor.sh, repeat step #2.

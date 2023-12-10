@@ -1,5 +1,5 @@
 [Unit]
-Description=Change KDE system colors and icons at night, and revert in the morning.
+Description=Change KDE system colors and/or icons at night, and revert in the morning.
 
 [Service]
 ExecStart=/etc/systemd/system/nightColor.sh

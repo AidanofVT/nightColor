@@ -1,5 +1,5 @@
 [Unit]
-Description=Run every day at 21:00 and 06:00.
+Description=Run the service every hour, at the end of the first minute.
 
 [Timer]
 OnCalendar=*-*-* *:01:00
