@@ -2,7 +2,7 @@
 Description=Change KDE system colors and/or icons at night, and revert in the morning.
 
 [Service]
-ExecStart=/etc/systemd/system/nightColor.sh
+ExecStart=%h/.config/systemd/user/nightColor.sh
 
 [Install]
 WantedBy=multi-user.target
